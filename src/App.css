@@ -1,0 +1,146 @@
+.container{
+    position: relative;
+     text-align: left;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: 20px 20px 20px 20px;
+     }
+   
+   body {
+     margin: 0;
+     font-family: 'Arial', sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh; 
+     background-color: rgb(231, 20, 143);
+   }
+   
+   .list-group.list-group-horizontal {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+   }
+   h1{
+     color: rgb(30, 34, 29);
+   }
+   .result {
+     width: calc(33.333% - 10px); 
+     margin-right: 10px;
+     margin-bottom: 10px; 
+     border-radius: 10px;
+     background-color: rgb(207, 70, 70);
+     text-align: center;
+   }
+   
+   
+   .result > div {
+     width: 100%;
+    
+   }
+   
+   h3 {
+     color: #6ed0a9; 
+     
+   
+   }
+   
+   
+   label {
+     display: block;
+     margin-bottom: 8px;
+     color: #555; 
+   }
+   
+   .result{
+   border: 1px  solid rgb(118, 95, 95);
+   width: 200px;
+   
+   
+   
+   }
+   
+   input {
+     width: 200px;
+    text-align: top;
+   
+     border: 1px solid #ceb7b7;
+     border-radius: 4px;
+   }
+   
+   
+   button {
+     background-color: #267037; 
+     padding: 20px 20px 20px 20px;
+     margin-right: 20px;
+     border: whitesmoke;
+     font-size: medium;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   button:hover {
+     background-color: #218838; 
+   }
+   
+   
+   select {
+     padding: 8px;
+    
+   }
+   
+   
+   
+   @media (max-width: 576px) {
+     
+     .center-div {
+       padding: 10px;
+     }
+   }
+   
+   @media (min-width: 577px) and (max-width: 768px) {
+     
+     .center-div {
+       padding: 15px;
+     }
+   }
+   
+   @media (min-width: 769px) and (max-width: 992px) {
+    
+     .center-div {
+       padding: 20px;
+     }
+   }
+   
+   
+   .container {
+     width: 100%;
+   }
+   
+   
+   @media (min-width: 576px) {
+     .container {
+       max-width: 540px;
+     }
+   }
+   
+   
+   @media (min-width: 768px) {
+     .container {
+       max-width: 720px;
+     }
+   }
+   
+   
+   @media (min-width: 992px) {
+     .container {
+       max-width: 960px;
+     }
+   }
+   
+   
+   @media (min-width: 1200px) {
+     .container {
+       max-width: 1140px;
+     }
+   }
